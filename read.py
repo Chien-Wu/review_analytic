@@ -20,6 +20,20 @@ for d in data:
 		new.append(d)
 print(len(new), "reviews longer than 500 words")
 
+good = []
+for d in data:
+	if "good" in d:
+		good.append(d)
+print(len(good), "reviews mentioned good")
+
+
+
+
+
+
+
+
+
 
 
 
