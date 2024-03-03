@@ -12,4 +12,15 @@ sum_len = 0
 for d in data:
 	sum_len = sum_len + len(d)
 
-print("there are", sum_len/len(data), "words per review in average")
+print(sum_len/len(data), "words per review in average")
+
+new = []
+for d in data:
+	if len(d) > 500:
+		new.append(d)
+print(len(new), "reviews longer than 500 words")
+
+
+
+
+
